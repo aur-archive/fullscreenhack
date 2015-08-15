@@ -1,0 +1,10 @@
+post_install() {
+  echo "This library provides two hacks, one for NPAPI Flash (Firefox etc) and one for PPAPI Flash (Google Chrome)."
+  echo "For more information see https://github.com/ali1234/fullscreenhack."
+  echo ""
+  echo "You can use the 'firefox-fullscreenhack' or the 'chrome-fullscreenhack' command to start the browser with the"
+  echo "needed library preloaded."
+  echo ""
+}
+
+# vim:set ts=2 sw=2 et:
